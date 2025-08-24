@@ -1,0 +1,28 @@
+{
+  "name": "pinets-app",
+  "version": "1.0.0",
+  "description": "Pi Coin Management Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently &quot;npm run start:backend&quot; &quot;npm run start:frontend&quot;",
+    "dev": "concurrently &quot;npm run dev:backend&quot; &quot;npm run dev:frontend&quot;",
+    "start:frontend": "cd frontend && npm run build && npm run preview",
+    "start:backend": "cd backend && npm start",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "pi",
+    "coin",
+    "cryptocurrency",
+    "blockchain",
+    "wallet"
+  ],
+  "author": "PiNets Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

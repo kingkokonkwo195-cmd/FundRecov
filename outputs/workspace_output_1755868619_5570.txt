@@ -1,0 +1,18 @@
+npm warn exec The following package was not found and will be installed: create-vite@7.1.1
+
+> npx
+> "create-vite" . --template react
+
+│
+◇  Scaffolding project in /workspace/pinets-app/frontend...
+│
+└  Done. Now run:
+
+  npm install
+  npm run dev
+
+npm notice
+npm notice New patch version of npm available! 11.5.1 -> 11.5.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.5.2
+npm notice To update run: npm install -g npm@11.5.2
+npm notice

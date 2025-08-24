@@ -1,0 +1,7 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="90" fill="#8A2BE2" />
+  <circle cx="100" cy="100" r="80" fill="#9932CC" />
+  <text x="100" y="120" font-family="Arial" font-size="80" font-weight="bold" text-anchor="middle" fill="white">π</text>
+  <path d="M100 30 A70 70 0 0 1 170 100" stroke="white" stroke-width="6" fill="none" />
+  <path d="M100 170 A70 70 0 0 1 30 100" stroke="white" stroke-width="6" fill="none" />
+</svg>

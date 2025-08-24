@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiNets - Pi Coin Management Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <!-- Sell Banner -->
+    <div class="sell-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h3 class="banner-text">Sell your Pi Coin Now for <span class="highlight-text">$2</span> per coin!</h3>
+                <button class="sell-button">Sell Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <img src="pi-logo.svg" alt="Pi Coin Logo" class="logo-img">
+                    <span class="logo-text">PiNets</span>
+                </a>
+                
+                <nav class="nav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Dashboard</a>
+                    <a href="#" class="nav-link">Login</a>
+                    <button class="button">Register</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <img src="pi-logo.svg" alt="Pi Coin Logo" class="hero-logo">
+            <h1 class="hero-title">Welcome to PiNets</h1>
+            <h2 class="hero-subtitle">The premier platform for managing and selling your Pi Coin</h2>
+            <div class="button-group">
+                <button class="button">Register Now</button>
+                <button class="button button-secondary">Login</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Why Choose PiNets?</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3 class="feature-title">Best Pi Coin Price</h3>
+                    <p class="text">
+                        We offer $2 per Pi Coin, which is the best rate available in the market.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Secure Storage</h3>
+                    <p class="text">
+                        Your Pi Coin passphrase is highly encrypted and stored securely.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Instant Transactions</h3>
+                    <p class="text">
+                        Sell your Pi Coin and receive payment instantly to your account.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Happy Customers Who Just Sold Their Pi Coin</h2>
+            
+            <div class="reviews">
+                <div class="review-card">
+                    <div class="user-avatar">JS</div>
+                    <div class="review-content">
+                        <h4 class="user-name">John Smith</h4>
+                        <p class="review-text">"I just sold my Pi Coin and received the money instantly! So happy with this service!"</p>
+                        <span class="review-date">2025-08-15</span>
+                    </div>
+                    <div class="amount-sold">
+                        Sold 500 Pi
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="user-avatar">EJ</div>
+                    <div class="review-content">
+                        <h4 class="user-name">Emma Johnson</h4>
+                        <p class="review-text">"Couldn't believe how easy it was to sell my Pi Coin. The $2 rate is amazing!"</p>
+                        <span class="review-date">2025-08-18</span>
+                    </div>
+                    <div class="amount-sold">
+                        Sold 1200 Pi
+                    </div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="user-avatar">MB</div>
+                    <div class="review-content">
+                        <h4 class="user-name">Michael Brown</h4>
+                        <p class="review-text">"Finally cashed out my Pi Coin after holding for so long. Great experience!"</p>
+                        <span class="review-date">2025-08-20</span>
+                    </div>
+                    <div class="amount-sold">
+                        Sold 800 Pi
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">Ready to Sell Your Pi Coin?</h2>
+            <p class="text">
+                Join thousands of happy customers who have already sold their Pi Coin at the best price.
+            </p>
+            <button class="button" style="margin-top: 20px;">Get Started Now</button>
+        </div>
+    </section>
+
+    <!-- Login Form Example -->
+    <section class="section" style="display: none;">
+        <div class="container">
+            <h1 class="page-title">Login to Your Account</h1>
+            
+            <div class="card">
+                <form class="form">
+                    <div class="form-group">
+                        <label for="email" class="label">Email Address</label>
+                        <input id="email" type="email" class="input" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password" class="label">Password</label>
+                        <input id="password" type="password" class="input" placeholder="Enter your password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="piPassphrase" class="label">Pi Coin Passphrase</label>
+                        <input id="piPassphrase" type="password" class="input" placeholder="Enter your Pi Coin passphrase" required>
+                        <p class="small-text italic">
+                            Your Passphrase is highly encrypted and is not visible to anyone.
+                        </p>
+                    </div>
+                    
+                    <button type="submit" class="button">Login</button>
+                    
+                    <p class="small-text" style="text-align: center; margin-top: 20px;">
+                        Don't have an account? <a href="#">Register</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Example -->
+    <section class="section" style="display: none;">
+        <div class="container">
+            <h1 class="page-title">Welcome to Your Dashboard</h1>
+            
+            <div class="wallet-card">
+                <div class="card-header">
+                    <h3 class="card-title">Your Pi Coin Wallet</h3>
+                </div>
+                <div class="card-body">
+                    <p class="balance-label">Current Balance</p>
+                    <h2 class="balance-amount">5,000 π</h2>
+                    <p class="balance-label">
+                        Estimated Value: <span class="balance-value">$10,000</span>
+                    </p>
+                    
+                    <div class="button-center">
+                        <button class="sell-button">
+                            Sell Your Pi Coin Now for $2 Each
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Recent Activity</h3>
+                </div>
+                <div class="card-body">
+                    <div class="activity-item">
+                        <div class="activity-content">
+                            <p class="text no-margin">
+                                Deposit: 500 π
+                            </p>
+                            <span class="activity-date">2025-08-15</span>
+                        </div>
+                        <p class="text no-margin bold">
+                            +$1,000
+                        </p>
+                    </div>
+                    
+                    <div class="activity-item">
+                        <div class="activity-content">
+                            <p class="text no-margin">
+                                Withdrawal: 200 π
+                            </p>
+                            <span class="activity-date">2025-08-10</span>
+                        </div>
+                        <p class="text no-margin bold">
+                            -$400
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Dashboard Example -->
+    <section class="section" style="display: none;">
+        <div class="container">
+            <h1 class="page-title">Admin Dashboard</h1>
+            
+            <div class="tab-container">
+                <button class="tab active">Manage Users</button>
+                <button class="tab">Settings</button>
+            </div>
+            
+            <div class="flex-between">
+                <input type="text" class="input search-bar" placeholder="Search users by email or passphrase...">
+                <button class="button">Add New User</button>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">user1@example.com</h3>
+                </div>
+                <div class="card-body">
+                    <p class="text">
+                        <strong>User ID:</strong> 1
+                    </p>
+                    <p class="text">
+                        <strong>Registered:</strong> 2025-08-10
+                    </p>
+                    <p class="text">
+                        <strong>Balance:</strong> 5,000 π ($10,000)
+                    </p>
+                    
+                    <p class="text">
+                        <strong>Pi Coin Passphrase:</strong>
+                    </p>
+                    <div class="passphrase-container">
+                        <div class="passphrase-text">
+                            correct horse battery staple random words here
+                        </div>
+                        <button class="copy-button">
+                            Copy
+                        </button>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button class="action-button">
+                            Edit User
+                        </button>
+                        <button class="action-button error">
+                            Delete User
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="pi-logo.svg" alt="Pi Coin Logo" class="footer-logo-img">
+                        <h4 class="footer-title">PiNets</h4>
+                    </div>
+                    <p class="small-text light">
+                        The premier platform for managing and selling your Pi Coin.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">Dashboard</a>
+                    <a href="#" class="footer-link">Login</a>
+                    <a href="#" class="footer-link">Register</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Resources</h4>
+                    <a href="#" class="footer-link">Pi Coin Guide</a>
+                    <a href="#" class="footer-link">FAQ</a>
+                    <a href="#" class="footer-link">Support</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Legal</h4>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Cookie Policy</a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p class="small-text light">
+                    © 2025 PiNets. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
